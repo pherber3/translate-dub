@@ -1,0 +1,66 @@
+{
+  "source_audio": "/Users/pherbert/Documents/Projects/translate-dub/data/longform_audio/french_conversation_example.mp3",
+  "source_transcript": "/Users/pherbert/Documents/Projects/translate-dub/data/longform_audio/french_conversation_example.json",
+  "clips": [
+    {
+      "speaker": 0,
+      "rank": 1,
+      "file": "data/longform_audio/french_conversation_example_speaker_clips/speaker_0_clip_1.wav",
+      "start": 18.84,
+      "end": 23.06,
+      "duration": 4.219999999999999,
+      "text": "Tu fais bien ? Qu'est-ce que je te sers ? Un caf\u00e9 comme d'habitude ?",
+      "score": 3.5
+    },
+    {
+      "speaker": 0,
+      "rank": 2,
+      "file": "data/longform_audio/french_conversation_example_speaker_clips/speaker_0_clip_2.wav",
+      "start": 29.7,
+      "end": 33.87,
+      "duration": 4.169999999999998,
+      "text": "Je comprends. Dis donc, tu t'es lev\u00e9 \u00e0 quelle heure pour \u00eatre ici si t\u00f4t ?",
+      "score": 3.5
+    },
+    {
+      "speaker": 0,
+      "rank": 3,
+      "file": "data/longform_audio/french_conversation_example_speaker_clips/speaker_0_clip_3.wav",
+      "start": 40.09,
+      "end": 46.09,
+      "duration": 6.0,
+      "text": "Waouh, cinq heures ! Oh l\u00e0 l\u00e0, ce n'est pas facile \u00e7a. Tu as pu dormir un peu dans le train ?",
+      "score": 3.5
+    },
+    {
+      "speaker": 1,
+      "rank": 1,
+      "file": "data/longform_audio/french_conversation_example_speaker_clips/speaker_1_clip_1.wav",
+      "start": 23.06,
+      "end": 29.7,
+      "duration": 6.640000000000001,
+      "text": "Oui, un espresso s'il te pla\u00eet. Merci. J'avais vraiment besoin de ce caf\u00e9 ce matin.",
+      "score": 3.5
+    },
+    {
+      "speaker": 1,
+      "rank": 2,
+      "file": "data/longform_audio/french_conversation_example_speaker_clips/speaker_1_clip_2.wav",
+      "start": 33.87,
+      "end": 39.95,
+      "duration": 6.080000000000005,
+      "text": "Tr\u00e8s t\u00f4t. Je me suis lev\u00e9 vers cinq heures du matin. J'ai pris le train de six heures depuis Reims pour venir.",
+      "score": 3.5
+    },
+    {
+      "speaker": 1,
+      "rank": 3,
+      "file": "data/longform_audio/french_conversation_example_speaker_clips/speaker_1_clip_3.wav",
+      "start": 46.09,
+      "end": 50.3,
+      "duration": 4.209999999999994,
+      "text": "Pas vraiment, non. Je suis encore un peu endormi pour \u00eatre honn\u00eate.",
+      "score": 3.5
+    }
+  ]
+}

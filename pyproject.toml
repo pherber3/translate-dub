@@ -1,7 +1,7 @@
 [project]
 name = "translate-dub"
 version = "0.1.0"
-description = "Add your description here"
+description = "Audio dubbing with voice cloning"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -18,22 +18,16 @@ dependencies = [
     "einops",
     # Local Qwen3-TTS package
     "qwen-tts",
-    # ASR - faster-whisper with CTranslate2 for fast CPU inference (ROCm has issues with Whisper on RDNA3)
+    # ASR - faster-whisper with CTranslate2
     "faster-whisper",
+    # MLX for Apple Silicon native inference
+    "mlx",
+    "mlx-lm", # Text generation (TranslateGemma 12B, Whisper turbo)
+    "mlx-vlm", # Vision/Audio models (potential Qwen3-TTS port)
+    "mlx-whisper>=0.4.3",
+    "mlx-audio>=0.2.10",
 ]
 
-[tool.uv]
-conflicts = [[
-    { package = "torch", extra = "rocm" },
-    { package = "torch", extra = "cuda" },
-]]
-
-[[tool.uv.index]]
-name = "pytorch-rocm"
-url = "https://download.pytorch.org/whl/rocm6.3"
-
 [tool.uv.sources]
-torch = { index = "pytorch-rocm" }
-torchaudio = { index = "pytorch-rocm" }
-pytorch-triton-rocm = { index = "pytorch-rocm" }
 qwen-tts = { path = "Qwen3-TTS", editable = true }
+mlx-audio = { path = "mlx-audio", editable = true }

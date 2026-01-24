@@ -1,0 +1,508 @@
+{
+  "audio_file": "/Users/pherbert/Documents/Projects/translate-dub/data/longform_audio/french_conversation_example.mp3",
+  "range": {
+    "start": 0.0,
+    "end": 351.912,
+    "duration": 351.912
+  },
+  "timing": {
+    "model_load_seconds": 6.78,
+    "transcribe_seconds": 758.36,
+    "realtime_factor": 2.155
+  },
+  "context": null,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.26,
+      "start_formatted": "00:00:00.000",
+      "end_formatted": "00:00:08.260",
+      "speaker": 0,
+      "text": "[Music]",
+      "original_text": "[Music]"
+    },
+    {
+      "start": 8.26,
+      "end": 11.7,
+      "start_formatted": "00:00:08.260",
+      "end_formatted": "00:00:11.700",
+      "speaker": 0,
+      "text": "Hi Victor, what are you doing here so early?",
+      "original_text": "Salut Victor, qu'est-ce que tu fais ici si tôt ?"
+    },
+    {
+      "start": 11.7,
+      "end": 18.84,
+      "start_formatted": "00:00:11.700",
+      "end_formatted": "00:00:18.840",
+      "speaker": 1,
+      "text": "Hi Daphne, I arrived in Paris this morning for work, and I thought I'd have my coffee here.",
+      "original_text": "Salut Daphné, je suis arrivé à Paris ce matin pour le travail et je me suis dit que j'allais prendre mon café ici."
+    },
+    {
+      "start": 18.84,
+      "end": 23.06,
+      "start_formatted": "00:00:18.840",
+      "end_formatted": "00:00:23.060",
+      "speaker": 0,
+      "text": "How are you? What can I get for you? A coffee, as usual?",
+      "original_text": "Tu fais bien ? Qu'est-ce que je te sers ? Un café comme d'habitude ?"
+    },
+    {
+      "start": 23.06,
+      "end": 29.7,
+      "start_formatted": "00:00:23.060",
+      "end_formatted": "00:00:29.700",
+      "speaker": 1,
+      "text": "Yes, an espresso, please. Thank you. I really needed that coffee this morning.",
+      "original_text": "Oui, un espresso s'il te plaît. Merci. J'avais vraiment besoin de ce café ce matin."
+    },
+    {
+      "start": 29.7,
+      "end": 33.87,
+      "start_formatted": "00:00:29.700",
+      "end_formatted": "00:00:33.870",
+      "speaker": 0,
+      "text": "I understand. So, what time did you get up to be here so early?",
+      "original_text": "Je comprends. Dis donc, tu t'es levé à quelle heure pour être ici si tôt ?"
+    },
+    {
+      "start": 33.87,
+      "end": 39.95,
+      "start_formatted": "00:00:33.870",
+      "end_formatted": "00:00:39.950",
+      "speaker": 1,
+      "text": "Very early. I got up around five in the morning. I took the six o'clock train from Reims to come here.",
+      "original_text": "Très tôt. Je me suis levé vers cinq heures du matin. J'ai pris le train de six heures depuis Reims pour venir."
+    },
+    {
+      "start": 40.09,
+      "end": 46.09,
+      "start_formatted": "00:00:40.090",
+      "end_formatted": "00:00:46.090",
+      "speaker": 0,
+      "text": "Wow, five o'clock! Oh dear, that's not easy. Were you able to sleep a little on the train?",
+      "original_text": "Waouh, cinq heures ! Oh là là, ce n'est pas facile ça. Tu as pu dormir un peu dans le train ?"
+    },
+    {
+      "start": 46.09,
+      "end": 50.3,
+      "start_formatted": "00:00:46.090",
+      "end_formatted": "00:00:50.300",
+      "speaker": 1,
+      "text": "Not really, no. I'm still a bit sleepy, to be honest.",
+      "original_text": "Pas vraiment, non. Je suis encore un peu endormi pour être honnête."
+    },
+    {
+      "start": 50.3,
+      "end": 54.82,
+      "start_formatted": "00:00:50.300",
+      "end_formatted": "00:00:54.820",
+      "speaker": 0,
+      "text": "I see. Well, drink your coffee, it will help you wake up.",
+      "original_text": "Je vois. Et bien, bois ton café, ça va t'aider à te réveiller."
+    },
+    {
+      "start": 54.82,
+      "end": 60.07,
+      "start_formatted": "00:00:54.820",
+      "end_formatted": "00:01:00.070",
+      "speaker": 1,
+      "text": "Good idea, thank you. By the way, you too get up very early every day with coffee, don't you?",
+      "original_text": "Bonne idée, merci. Au fait, toi aussi tu es debout très tôt tous les jours avec le café, non ?"
+    },
+    {
+      "start": 60.07,
+      "end": 66.11,
+      "start_formatted": "00:01:00.070",
+      "end_formatted": "00:01:06.110",
+      "speaker": 0,
+      "text": "Yes, that's true. I have to get up every day around 5:30 to open the cafe at 7:00.",
+      "original_text": "Oui, c'est vrai. Je dois me lever chaque jour vers 5h30 pour ouvrir le café à 7h."
+    },
+    {
+      "start": 66.11,
+      "end": 71.36,
+      "start_formatted": "00:01:06.110",
+      "end_formatted": "00:01:11.360",
+      "speaker": 1,
+      "text": "5:30 every day? Oh dear, that's really early! Do you live far from the cafe?",
+      "original_text": "5h30 tous les jours ? Oh là là, c'est super tôt ! Tu habites loin du café ?"
+    },
+    {
+      "start": 71.54,
+      "end": 78.53,
+      "start_formatted": "00:01:11.540",
+      "end_formatted": "00:01:18.530",
+      "speaker": 0,
+      "text": "No, I'm fine. I live about 20 minutes from here. I take the subway in the morning; it's quick at this time.",
+      "original_text": "Non, ça va. J'habite à environ 20 minutes d'ici. Je prends le métro le matin, c'est rapide à cette heure-ci."
+    },
+    {
+      "start": 78.53,
+      "end": 81.15,
+      "start_formatted": "00:01:18.530",
+      "end_formatted": "00:01:21.150",
+      "speaker": 1,
+      "text": "Are there already subways at 5:30?",
+      "original_text": "Il y a déjà des métros à 5h30 ?"
+    },
+    {
+      "start": 81.15,
+      "end": 87.77,
+      "start_formatted": "00:01:21.150",
+      "end_formatted": "00:01:27.770",
+      "speaker": 0,
+      "text": "The first subway car arrives around 5:40. At that time, there is almost no one on the subway, fortunately.",
+      "original_text": "Le premier métro passe vers 5h40. À cette heure-là, il n'y a presque personne dans le métro, heureusement."
+    },
+    {
+      "start": 87.77,
+      "end": 90.81,
+      "start_formatted": "00:01:27.770",
+      "end_formatted": "00:01:30.810",
+      "speaker": 1,
+      "text": "Great. At least you're free to come.",
+      "original_text": "Tant mieux. Au moins tu es tranquille pour venir."
+    },
+    {
+      "start": 90.81,
+      "end": 95.01,
+      "start_formatted": "00:01:30.810",
+      "end_formatted": "00:01:35.010",
+      "speaker": 0,
+      "text": "Yes, and the station is just next to the cafe. It's convenient.",
+      "original_text": "Oui, et la station est juste à côté du café. C'est pratique."
+    },
+    {
+      "start": 95.01,
+      "end": 98.31,
+      "start_formatted": "00:01:35.010",
+      "end_formatted": "00:01:38.310",
+      "speaker": 1,
+      "text": "Honestly, you are brave to do that every morning.",
+      "original_text": "Franchement, tu es courageuse de faire ça chaque matin."
+    },
+    {
+      "start": 98.31,
+      "end": 104.73,
+      "start_formatted": "00:01:38.310",
+      "end_formatted": "00:01:44.730",
+      "speaker": 0,
+      "text": "Thank you, but I don't really have much of a choice. At first, I found it very difficult, but I got used to it.",
+      "original_text": "Merci, mais je n'ai pas trop le choix. Au début, je trouvais ça très difficile, mais je m'y suis habituée."
+    },
+    {
+      "start": 104.73,
+      "end": 107.19,
+      "start_formatted": "00:01:44.730",
+      "end_formatted": "00:01:47.190",
+      "speaker": 1,
+      "text": "Have you ever missed your alarm one morning?",
+      "original_text": "Tu n'as jamais raté ton réveil un matin ?"
+    },
+    {
+      "start": 107.19,
+      "end": 129.18,
+      "start_formatted": "00:01:47.190",
+      "end_formatted": "00:02:09.180",
+      "speaker": 0,
+      "text": "Once, last year. I forgot to set my alarm and I woke up at 6:45 instead of 5:30. I was terrified when I saw the time. I jumped out of bed, I got dressed very quickly, and I rushed out the door. I arrived at the cafe around 7:15, late. A customer was already waiting in front of the door.",
+      "original_text": "Si, une fois, l'année dernière. J'ai oublié de régler mon réveil et je me suis réveillée à 6h45 au lieu de 5h30. J'étais terrifiée en voyant l'heure. J'ai sauté du lit, je me suis habillée très vite et je suis partie en courant. Je suis arrivée au café vers 7h15 passées, avec du retard. Un client attendait déjà devant la porte."
+    },
+    {
+      "start": 129.18,
+      "end": 132.88,
+      "start_formatted": "00:02:09.180",
+      "end_formatted": "00:02:12.880",
+      "speaker": 1,
+      "text": "Oh dear. And wasn't the client a little upset?",
+      "original_text": "Oh là là. Et le client, il n'était pas trop fâché ?"
+    },
+    {
+      "start": 132.88,
+      "end": 139.53,
+      "start_formatted": "00:02:12.880",
+      "end_formatted": "00:02:19.530",
+      "speaker": 0,
+      "text": "Fortunately, no. I explained the situation to him, and he was understanding. He even laughed.",
+      "original_text": "Heureusement, non. Je lui ai expliqué la situation et il a été compréhensif. Il a même rigolé."
+    },
+    {
+      "start": 139.53,
+      "end": 142.23,
+      "start_formatted": "00:02:19.530",
+      "end_formatted": "00:02:22.230",
+      "speaker": 1,
+      "text": "Okay. You must have been scared.",
+      "original_text": "Tant mieux. Tu as dû avoir peur."
+    },
+    {
+      "start": 142.23,
+      "end": 147.98,
+      "start_formatted": "00:02:22.230",
+      "end_formatted": "00:02:27.980",
+      "speaker": 0,
+      "text": "Oh yes. Since that day, I set two alarms to be sure to wake up on time.",
+      "original_text": "Oh oui. Depuis ce jour-là, je mets deux réveils pour être sûre de me lever à l'heure."
+    },
+    {
+      "start": 147.98,
+      "end": 152.26,
+      "start_formatted": "00:02:27.980",
+      "end_formatted": "00:02:32.260",
+      "speaker": 1,
+      "text": "",
+      "original_text": "Haha, tu as bien raison. Alors qu'est-ce que tu dois faire avant l'ouverture ?"
+    },
+    {
+      "start": 152.26,
+      "end": 168.26,
+      "start_formatted": "00:02:32.260",
+      "end_formatted": "00:02:48.260",
+      "speaker": 0,
+      "text": "Lots of things. I'm preparing the room and the terrace. I'm setting up the chairs and tables. Then, I start the coffee machine. I take the pastries out of the oven and put them on the counter. At this hour, everything should be ready to welcome the customers.",
+      "original_text": "Plein de choses. Je prépare la salle et la terrasse. Je mets en place les chaises et les tables. Ensuite, je démarre la machine à café. Je sors les viennoiseries du four et je les mets sur le comptoir. À cette heure, tout doit être prêt pour accueillir les clients."
+    },
+    {
+      "start": 168.26,
+      "end": 173.35,
+      "start_formatted": "00:02:48.260",
+      "end_formatted": "00:02:53.350",
+      "speaker": 1,
+      "text": "Well, that's work. And after that, do you have a lot of people right away at opening?",
+      "original_text": "Et bien, c'est du travail. Et après, tu as du monde tout de suite à l'ouverture ?"
+    },
+    {
+      "start": 173.35,
+      "end": 181.87,
+      "start_formatted": "00:02:53.350",
+      "end_formatted": "00:03:01.870",
+      "speaker": 0,
+      "text": "At first, it's quite quiet, but I still have some customers from 7 am. Often, it's people who are catching a train or starting work very early.",
+      "original_text": "Au début, c'est assez calme, mais j'ai quand même quelques clients dès 7 heures. Souvent des gens qui vont prendre un train ou qui commencent le travail très tôt."
+    },
+    {
+      "start": 181.87,
+      "end": 185.69,
+      "start_formatted": "00:03:01.870",
+      "end_formatted": "00:03:05.690",
+      "speaker": 1,
+      "text": "In my home in Reims, at this hour, the city is still quite calm.",
+      "original_text": "Chez moi à Reims, à cette heure, la ville est encore assez calme."
+    },
+    {
+      "start": 185.69,
+      "end": 190.35,
+      "start_formatted": "00:03:05.690",
+      "end_formatted": "00:03:10.350",
+      "speaker": 0,
+      "text": "Yes, here in Paris, there are already quite a few people outside at that time.",
+      "original_text": "Ah oui. Ici à Paris, il y a déjà pas mal de monde dehors à cette heure-là."
+    },
+    {
+      "start": 190.35,
+      "end": 196.0,
+      "start_formatted": "00:03:10.350",
+      "end_formatted": "00:03:16.000",
+      "speaker": 1,
+      "text": "",
+      "original_text": "Oui, c'est une autre ambiance. Et toi, tu déjeunes quand dans tout ça ?"
+    },
+    {
+      "start": 196.0,
+      "end": 209.94,
+      "start_formatted": "00:03:16.000",
+      "end_formatted": "00:03:29.940",
+      "speaker": 0,
+      "text": "I, well, I don't really have time to have a proper breakfast in the morning. I just drink a coffee with milk around 6:30 when I've finished getting everything ready, and I eat a croissant quickly. Sometimes, I don't eat anything until noon.",
+      "original_text": "Moi, et bien, je n'ai pas vraiment le temps de prendre un vrai petit déjeuner le matin. Je bois juste un café au lait vers 6h30 quand j'ai fini de tout préparer et je mange un croissant rapidement. Parfois, je ne mange rien avant midi."
+    },
+    {
+      "start": 209.94,
+      "end": 214.6,
+      "start_formatted": "00:03:29.940",
+      "end_formatted": "00:03:34.600",
+      "speaker": 1,
+      "text": "Oh yes, indeed. So, you work all morning without eating anything?",
+      "original_text": "Ah oui, quand même. Donc tu travailles toute la matinée sans rien manger ?"
+    },
+    {
+      "start": 214.6,
+      "end": 221.98,
+      "start_formatted": "00:03:34.600",
+      "end_formatted": "00:03:41.980",
+      "speaker": 0,
+      "text": "It depends on the days. This morning, for example, I was able to eat a croissant. But it's true that sometimes, I don't eat anything before noon.",
+      "original_text": "Ça dépend des jours. Ce matin par exemple, j'ai pu manger un croissant. Mais c'est vrai que parfois, je ne mange rien avant midi."
+    },
+    {
+      "start": 221.98,
+      "end": 226.58,
+      "start_formatted": "00:03:41.980",
+      "end_formatted": "00:03:46.580",
+      "speaker": 1,
+      "text": "I can't start my day without breakfast. I'm too hungry otherwise.",
+      "original_text": "Moi, je ne peux pas commencer ma journée sans petit déjeuner. J'ai trop faim sinon."
+    },
+    {
+      "start": 226.58,
+      "end": 229.99,
+      "start_formatted": "00:03:46.580",
+      "end_formatted": "00:03:49.990",
+      "speaker": 0,
+      "text": "Really? What do you usually have in the morning?",
+      "original_text": "Ah bon ? Qu'est-ce que tu prends d'habitude le matin ?"
+    },
+    {
+      "start": 229.99,
+      "end": 242.3,
+      "start_formatted": "00:03:49.990",
+      "end_formatted": "00:04:02.300",
+      "speaker": 1,
+      "text": "Generally, I eat a good breakfast. I eat toast with butter and jam. Sometimes, I have cereal. It depends. And I drink a large coffee or a fresh orange juice.",
+      "original_text": "En général, je prends un bon petit déjeuner. Je mange des tartines avec du beurre et de la confiture. Parfois, je prends des céréales. Ça dépend. Et je bois un grand café ou bien un jus d'orange frais."
+    },
+    {
+      "start": 242.3,
+      "end": 250.69,
+      "start_formatted": "00:04:02.300",
+      "end_formatted": "00:04:10.690",
+      "speaker": 0,
+      "text": "You're lucky to have time in the morning. I, on the other hand, prefer to sleep a little longer. As a result, I don't take the time to have breakfast.",
+      "original_text": "Tu as de la chance d'avoir le temps le matin. Moi, je préfère dormir un peu plus longtemps. Du coup, je ne prends pas le temps de petit déjeuner."
+    },
+    {
+      "start": 250.69,
+      "end": 253.74,
+      "start_formatted": "00:04:10.690",
+      "end_formatted": "00:04:13.740",
+      "speaker": 1,
+      "text": "",
+      "original_text": "Je vois. Chacun ses habitudes le matin."
+    },
+    {
+      "start": 253.74,
+      "end": 258.62,
+      "start_formatted": "00:04:13.740",
+      "end_formatted": "00:04:18.620",
+      "speaker": 0,
+      "text": "And after breakfast, do you go directly to work at your restaurant?",
+      "original_text": "Et après le petit déjeuner, tu pars directement travailler à ton restaurant ?"
+    },
+    {
+      "start": 258.62,
+      "end": 268.45,
+      "start_formatted": "00:04:18.620",
+      "end_formatted": "00:04:28.450",
+      "speaker": 1,
+      "text": "Not right away. My restaurant doesn't open until noon, so I have a bit of time in the morning. Generally, I arrive at the restaurant around 10 a.m. to prepare for the lunch service.",
+      "original_text": "Non Pas tout de suite. Mon restaurant n'ouvre qu'à midi, alors le matin j'ai un peu de temps. En général, j'arrive au restaurant vers 10 heures pour préparer le service du déjeuner."
+    },
+    {
+      "start": 268.45,
+      "end": 273.74,
+      "start_formatted": "00:04:28.450",
+      "end_formatted": "00:04:33.740",
+      "speaker": 0,
+      "text": "Okay, your restaurant opens quite late. So, you have the whole morning to yourself.",
+      "original_text": "Ah oui, ton restaurant ouvre assez tard. Du coup, tu as toute la matinée pour toi."
+    },
+    {
+      "start": 273.74,
+      "end": 291.51,
+      "start_formatted": "00:04:33.740",
+      "end_formatted": "00:04:51.510",
+      "speaker": 1,
+      "text": "Yes, I'm taking this opportunity to rest a bit or do small things calmly. Often, I read the news of the day on my phone and enjoy a second coffee. But twice a week, I get up much earlier, around 6 am. On those days, I go to the market early in the morning to buy fresh produce for the restaurant.",
+      "original_text": "Oui, j'en profite pour me reposer un peu ou faire des petites choses calmement. Souvent, je lis les actualités du jour sur mon téléphone et je prends un deuxième café tranquillement. Mais deux fois par semaine, je me lève beaucoup plus tôt vers 6 heures. Ces jours-là, je vais au marché tôt le matin pour acheter des produits frais pour le restaurant."
+    },
+    {
+      "start": 291.51,
+      "end": 295.31,
+      "start_formatted": "00:04:51.510",
+      "end_formatted": "00:04:55.310",
+      "speaker": 0,
+      "text": "Okay. So, you don't have the same routine every morning.",
+      "original_text": "D'accord. Donc, tu n'as pas la même routine tous les matins."
+    },
+    {
+      "start": 295.31,
+      "end": 303.22,
+      "start_formatted": "00:04:55.310",
+      "end_formatted": "00:05:03.220",
+      "speaker": 1,
+      "text": "Okay, it's not so bad. I like changing things up a bit. And can you sleep in sometimes? For example, on the weekend?",
+      "original_text": "C'est vrai, ce n'est pas plus mal. J'aime bien changer un peu. Et est-ce que tu peux faire la grasse matinée de temps en temps ? Par exemple le weekend ?"
+    },
+    {
+      "start": 303.22,
+      "end": 324.92,
+      "start_formatted": "00:05:03.220",
+      "end_formatted": "00:05:24.920",
+      "speaker": 0,
+      "text": "Ah, the weekend. Yes, fortunately, I don't work on Sundays. On Sundays, I try not to set an alarm and sleep until 9 or 10 o'clock. I take advantage of it to have a good breakfast without rushing. I stay in my pajamas and I slowly enjoy my coffee. And on Monday mornings, it's always a little difficult to wake up again at 5:30.",
+      "original_text": "Ah, le weekend. Oui, heureusement, je ne travaille pas le dimanche. Le dimanche, j'essaie de ne pas mettre de réveil et de dormir jusqu'à 9 heures ou 10 heures. J'en profite pour prendre un bon petit déjeuner sans me presser. Je reste en pyjama et je savoure mon café tranquillement. Et le lundi matin, c'est toujours un peu difficile de se réveiller de nouveau à 5h30."
+    },
+    {
+      "start": 324.92,
+      "end": 334.11,
+      "start_formatted": "00:05:24.920",
+      "end_formatted": "00:05:34.110",
+      "speaker": 1,
+      "text": "I understand you. On Sundays, I also take advantage to sleep a little later. Well, it's almost eight o'clock. I have to go, I have an appointment at eight thirty.",
+      "original_text": "Je te comprends. Le dimanche, j'en profite aussi pour dormir un peu plus tard. Bon, il est presque huit heures. Je dois y aller, j'ai un rendez-vous à huit heures trente."
+    },
+    {
+      "start": 334.11,
+      "end": 337.45,
+      "start_formatted": "00:05:34.110",
+      "end_formatted": "00:05:37.450",
+      "speaker": 0,
+      "text": "Don't worry. Good luck with your appointment.",
+      "original_text": "Pas de souci. Bonne chance pour ton rendez-vous."
+    },
+    {
+      "start": 337.45,
+      "end": 340.79,
+      "start_formatted": "00:05:37.450",
+      "end_formatted": "00:05:40.790",
+      "speaker": 1,
+      "text": "Thank you. And good luck with your morning at the cafe.",
+      "original_text": "Merci. Et bon courage pour ta matinée au café."
+    },
+    {
+      "start": 340.79,
+      "end": 343.86,
+      "start_formatted": "00:05:40.790",
+      "end_formatted": "00:05:43.860",
+      "speaker": 0,
+      "text": "Thank you. Have a good day, see you later.",
+      "original_text": "Merci. Bonne journée, à plus tard."
+    },
+    {
+      "start": 343.86,
+      "end": 345.44,
+      "start_formatted": "00:05:43.860",
+      "end_formatted": "00:05:45.440",
+      "speaker": 1,
+      "text": "See you soon, Daphne.",
+      "original_text": "À bientôt Daphné."
+    },
+    {
+      "start": 345.44,
+      "end": 351.94,
+      "start_formatted": "00:05:45.440",
+      "end_formatted": "00:05:51.940",
+      "speaker": 0,
+      "text": "[Music]",
+      "original_text": "[Music]"
+    }
+  ],
+  "translation": {
+    "source_language": "fr",
+    "target_language": "en",
+    "model": "mlx-community/translategemma-12b-it-4bit",
+    "translate_seconds": 465.85
+  }
+}

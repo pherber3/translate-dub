@@ -1,0 +1,22 @@
+{
+  "source_audio": "/Users/pherbert/Documents/Projects/translate-dub/data/longform_audio/french_conversation_example.mp3",
+  "source_transcript": "/Users/pherbert/Documents/Projects/translate-dub/data/longform_audio/french_conversation_example.json",
+  "clips": [
+    {
+      "speaker": 0,
+      "rank": 1,
+      "file": "data/longform_audio/french_conversation_example_speaker_clips/speaker_0_combined.wav",
+      "duration": 14.4,
+      "text": "(combined from 3 clips)",
+      "score": 10.0
+    },
+    {
+      "speaker": 1,
+      "rank": 1,
+      "file": "data/longform_audio/french_conversation_example_speaker_clips/speaker_1_combined.wav",
+      "duration": 16.9,
+      "text": "(combined from 3 clips)",
+      "score": 10.0
+    }
+  ]
+}

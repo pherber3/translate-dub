@@ -20,6 +20,10 @@ dependencies = [
     "qwen-tts",
     # ASR - faster-whisper with CTranslate2
     "faster-whisper",
+    # MLX for Apple Silicon native inference
+    "mlx",
+    "mlx-lm",        # Text generation (TranslateGemma 12B, Whisper turbo)
+    "mlx-vlm",       # Vision/Audio models (potential Qwen3-TTS port)
 ]
 
 [tool.uv.sources]

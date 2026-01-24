@@ -1,0 +1,448 @@
+{
+  "audio_file": "/Users/pherbert/Documents/Projects/translate-dub/data/longform_audio/french_conversation_example.mp3",
+  "range": {
+    "start": 0.0,
+    "end": 351.912,
+    "duration": 351.912
+  },
+  "timing": {
+    "model_load_seconds": 6.78,
+    "transcribe_seconds": 758.36,
+    "realtime_factor": 2.155
+  },
+  "context": null,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.26,
+      "start_formatted": "00:00:00.000",
+      "end_formatted": "00:00:08.260",
+      "speaker": 0,
+      "text": "[Music]"
+    },
+    {
+      "start": 8.26,
+      "end": 11.7,
+      "start_formatted": "00:00:08.260",
+      "end_formatted": "00:00:11.700",
+      "speaker": 0,
+      "text": "Salut Victor, qu'est-ce que tu fais ici si t\u00f4t ?"
+    },
+    {
+      "start": 11.7,
+      "end": 18.84,
+      "start_formatted": "00:00:11.700",
+      "end_formatted": "00:00:18.840",
+      "speaker": 1,
+      "text": "Salut Daphn\u00e9, je suis arriv\u00e9 \u00e0 Paris ce matin pour le travail et je me suis dit que j'allais prendre mon caf\u00e9 ici."
+    },
+    {
+      "start": 18.84,
+      "end": 23.06,
+      "start_formatted": "00:00:18.840",
+      "end_formatted": "00:00:23.060",
+      "speaker": 0,
+      "text": "Tu fais bien ? Qu'est-ce que je te sers ? Un caf\u00e9 comme d'habitude ?"
+    },
+    {
+      "start": 23.06,
+      "end": 29.7,
+      "start_formatted": "00:00:23.060",
+      "end_formatted": "00:00:29.700",
+      "speaker": 1,
+      "text": "Oui, un espresso s'il te pla\u00eet. Merci. J'avais vraiment besoin de ce caf\u00e9 ce matin."
+    },
+    {
+      "start": 29.7,
+      "end": 33.87,
+      "start_formatted": "00:00:29.700",
+      "end_formatted": "00:00:33.870",
+      "speaker": 0,
+      "text": "Je comprends. Dis donc, tu t'es lev\u00e9 \u00e0 quelle heure pour \u00eatre ici si t\u00f4t ?"
+    },
+    {
+      "start": 33.87,
+      "end": 39.95,
+      "start_formatted": "00:00:33.870",
+      "end_formatted": "00:00:39.950",
+      "speaker": 1,
+      "text": "Tr\u00e8s t\u00f4t. Je me suis lev\u00e9 vers cinq heures du matin. J'ai pris le train de six heures depuis Reims pour venir."
+    },
+    {
+      "start": 40.09,
+      "end": 46.09,
+      "start_formatted": "00:00:40.090",
+      "end_formatted": "00:00:46.090",
+      "speaker": 0,
+      "text": "Waouh, cinq heures ! Oh l\u00e0 l\u00e0, ce n'est pas facile \u00e7a. Tu as pu dormir un peu dans le train ?"
+    },
+    {
+      "start": 46.09,
+      "end": 50.3,
+      "start_formatted": "00:00:46.090",
+      "end_formatted": "00:00:50.300",
+      "speaker": 1,
+      "text": "Pas vraiment, non. Je suis encore un peu endormi pour \u00eatre honn\u00eate."
+    },
+    {
+      "start": 50.3,
+      "end": 54.82,
+      "start_formatted": "00:00:50.300",
+      "end_formatted": "00:00:54.820",
+      "speaker": 0,
+      "text": "Je vois. Et bien, bois ton caf\u00e9, \u00e7a va t'aider \u00e0 te r\u00e9veiller."
+    },
+    {
+      "start": 54.82,
+      "end": 60.07,
+      "start_formatted": "00:00:54.820",
+      "end_formatted": "00:01:00.070",
+      "speaker": 1,
+      "text": "Bonne id\u00e9e, merci. Au fait, toi aussi tu es debout tr\u00e8s t\u00f4t tous les jours avec le caf\u00e9, non ?"
+    },
+    {
+      "start": 60.07,
+      "end": 66.11,
+      "start_formatted": "00:01:00.070",
+      "end_formatted": "00:01:06.110",
+      "speaker": 0,
+      "text": "Oui, c'est vrai. Je dois me lever chaque jour vers 5h30 pour ouvrir le caf\u00e9 \u00e0 7h."
+    },
+    {
+      "start": 66.11,
+      "end": 71.36,
+      "start_formatted": "00:01:06.110",
+      "end_formatted": "00:01:11.360",
+      "speaker": 1,
+      "text": "5h30 tous les jours ? Oh l\u00e0 l\u00e0, c'est super t\u00f4t ! Tu habites loin du caf\u00e9 ?"
+    },
+    {
+      "start": 71.54,
+      "end": 78.53,
+      "start_formatted": "00:01:11.540",
+      "end_formatted": "00:01:18.530",
+      "speaker": 0,
+      "text": "Non, \u00e7a va. J'habite \u00e0 environ 20 minutes d'ici. Je prends le m\u00e9tro le matin, c'est rapide \u00e0 cette heure-ci."
+    },
+    {
+      "start": 78.53,
+      "end": 81.15,
+      "start_formatted": "00:01:18.530",
+      "end_formatted": "00:01:21.150",
+      "speaker": 1,
+      "text": "Il y a d\u00e9j\u00e0 des m\u00e9tros \u00e0 5h30 ?"
+    },
+    {
+      "start": 81.15,
+      "end": 87.77,
+      "start_formatted": "00:01:21.150",
+      "end_formatted": "00:01:27.770",
+      "speaker": 0,
+      "text": "Le premier m\u00e9tro passe vers 5h40. \u00c0 cette heure-l\u00e0, il n'y a presque personne dans le m\u00e9tro, heureusement."
+    },
+    {
+      "start": 87.77,
+      "end": 90.81,
+      "start_formatted": "00:01:27.770",
+      "end_formatted": "00:01:30.810",
+      "speaker": 1,
+      "text": "Tant mieux. Au moins tu es tranquille pour venir."
+    },
+    {
+      "start": 90.81,
+      "end": 95.01,
+      "start_formatted": "00:01:30.810",
+      "end_formatted": "00:01:35.010",
+      "speaker": 0,
+      "text": "Oui, et la station est juste \u00e0 c\u00f4t\u00e9 du caf\u00e9. C'est pratique."
+    },
+    {
+      "start": 95.01,
+      "end": 98.31,
+      "start_formatted": "00:01:35.010",
+      "end_formatted": "00:01:38.310",
+      "speaker": 1,
+      "text": "Franchement, tu es courageuse de faire \u00e7a chaque matin."
+    },
+    {
+      "start": 98.31,
+      "end": 104.73,
+      "start_formatted": "00:01:38.310",
+      "end_formatted": "00:01:44.730",
+      "speaker": 0,
+      "text": "Merci, mais je n'ai pas trop le choix. Au d\u00e9but, je trouvais \u00e7a tr\u00e8s difficile, mais je m'y suis habitu\u00e9e."
+    },
+    {
+      "start": 104.73,
+      "end": 107.19,
+      "start_formatted": "00:01:44.730",
+      "end_formatted": "00:01:47.190",
+      "speaker": 1,
+      "text": "Tu n'as jamais rat\u00e9 ton r\u00e9veil un matin ?"
+    },
+    {
+      "start": 107.19,
+      "end": 129.18,
+      "start_formatted": "00:01:47.190",
+      "end_formatted": "00:02:09.180",
+      "speaker": 0,
+      "text": "Si, une fois, l'ann\u00e9e derni\u00e8re. J'ai oubli\u00e9 de r\u00e9gler mon r\u00e9veil et je me suis r\u00e9veill\u00e9e \u00e0 6h45 au lieu de 5h30. J'\u00e9tais terrifi\u00e9e en voyant l'heure. J'ai saut\u00e9 du lit, je me suis habill\u00e9e tr\u00e8s vite et je suis partie en courant. Je suis arriv\u00e9e au caf\u00e9 vers 7h15 pass\u00e9es, avec du retard. Un client attendait d\u00e9j\u00e0 devant la porte."
+    },
+    {
+      "start": 129.18,
+      "end": 132.88,
+      "start_formatted": "00:02:09.180",
+      "end_formatted": "00:02:12.880",
+      "speaker": 1,
+      "text": "Oh l\u00e0 l\u00e0. Et le client, il n'\u00e9tait pas trop f\u00e2ch\u00e9 ?"
+    },
+    {
+      "start": 132.88,
+      "end": 139.53,
+      "start_formatted": "00:02:12.880",
+      "end_formatted": "00:02:19.530",
+      "speaker": 0,
+      "text": "Heureusement, non. Je lui ai expliqu\u00e9 la situation et il a \u00e9t\u00e9 compr\u00e9hensif. Il a m\u00eame rigol\u00e9."
+    },
+    {
+      "start": 139.53,
+      "end": 142.23,
+      "start_formatted": "00:02:19.530",
+      "end_formatted": "00:02:22.230",
+      "speaker": 1,
+      "text": "Tant mieux. Tu as d\u00fb avoir peur."
+    },
+    {
+      "start": 142.23,
+      "end": 147.98,
+      "start_formatted": "00:02:22.230",
+      "end_formatted": "00:02:27.980",
+      "speaker": 0,
+      "text": "Oh oui. Depuis ce jour-l\u00e0, je mets deux r\u00e9veils pour \u00eatre s\u00fbre de me lever \u00e0 l'heure."
+    },
+    {
+      "start": 147.98,
+      "end": 152.26,
+      "start_formatted": "00:02:27.980",
+      "end_formatted": "00:02:32.260",
+      "speaker": 1,
+      "text": "Haha, tu as bien raison. Alors qu'est-ce que tu dois faire avant l'ouverture ?"
+    },
+    {
+      "start": 152.26,
+      "end": 168.26,
+      "start_formatted": "00:02:32.260",
+      "end_formatted": "00:02:48.260",
+      "speaker": 0,
+      "text": "Plein de choses. Je pr\u00e9pare la salle et la terrasse. Je mets en place les chaises et les tables. Ensuite, je d\u00e9marre la machine \u00e0 caf\u00e9. Je sors les viennoiseries du four et je les mets sur le comptoir. \u00c0 cette heure, tout doit \u00eatre pr\u00eat pour accueillir les clients."
+    },
+    {
+      "start": 168.26,
+      "end": 173.35,
+      "start_formatted": "00:02:48.260",
+      "end_formatted": "00:02:53.350",
+      "speaker": 1,
+      "text": "Et bien, c'est du travail. Et apr\u00e8s, tu as du monde tout de suite \u00e0 l'ouverture ?"
+    },
+    {
+      "start": 173.35,
+      "end": 181.87,
+      "start_formatted": "00:02:53.350",
+      "end_formatted": "00:03:01.870",
+      "speaker": 0,
+      "text": "Au d\u00e9but, c'est assez calme, mais j'ai quand m\u00eame quelques clients d\u00e8s 7 heures. Souvent des gens qui vont prendre un train ou qui commencent le travail tr\u00e8s t\u00f4t."
+    },
+    {
+      "start": 181.87,
+      "end": 185.69,
+      "start_formatted": "00:03:01.870",
+      "end_formatted": "00:03:05.690",
+      "speaker": 1,
+      "text": "Chez moi \u00e0 Reims, \u00e0 cette heure, la ville est encore assez calme."
+    },
+    {
+      "start": 185.69,
+      "end": 190.35,
+      "start_formatted": "00:03:05.690",
+      "end_formatted": "00:03:10.350",
+      "speaker": 0,
+      "text": "Ah oui. Ici \u00e0 Paris, il y a d\u00e9j\u00e0 pas mal de monde dehors \u00e0 cette heure-l\u00e0."
+    },
+    {
+      "start": 190.35,
+      "end": 196.0,
+      "start_formatted": "00:03:10.350",
+      "end_formatted": "00:03:16.000",
+      "speaker": 1,
+      "text": "Oui, c'est une autre ambiance. Et toi, tu d\u00e9jeunes quand dans tout \u00e7a ?"
+    },
+    {
+      "start": 196.0,
+      "end": 209.94,
+      "start_formatted": "00:03:16.000",
+      "end_formatted": "00:03:29.940",
+      "speaker": 0,
+      "text": "Moi, et bien, je n'ai pas vraiment le temps de prendre un vrai petit d\u00e9jeuner le matin. Je bois juste un caf\u00e9 au lait vers 6h30 quand j'ai fini de tout pr\u00e9parer et je mange un croissant rapidement. Parfois, je ne mange rien avant midi."
+    },
+    {
+      "start": 209.94,
+      "end": 214.6,
+      "start_formatted": "00:03:29.940",
+      "end_formatted": "00:03:34.600",
+      "speaker": 1,
+      "text": "Ah oui, quand m\u00eame. Donc tu travailles toute la matin\u00e9e sans rien manger ?"
+    },
+    {
+      "start": 214.6,
+      "end": 221.98,
+      "start_formatted": "00:03:34.600",
+      "end_formatted": "00:03:41.980",
+      "speaker": 0,
+      "text": "\u00c7a d\u00e9pend des jours. Ce matin par exemple, j'ai pu manger un croissant. Mais c'est vrai que parfois, je ne mange rien avant midi."
+    },
+    {
+      "start": 221.98,
+      "end": 226.58,
+      "start_formatted": "00:03:41.980",
+      "end_formatted": "00:03:46.580",
+      "speaker": 1,
+      "text": "Moi, je ne peux pas commencer ma journ\u00e9e sans petit d\u00e9jeuner. J'ai trop faim sinon."
+    },
+    {
+      "start": 226.58,
+      "end": 229.99,
+      "start_formatted": "00:03:46.580",
+      "end_formatted": "00:03:49.990",
+      "speaker": 0,
+      "text": "Ah bon ? Qu'est-ce que tu prends d'habitude le matin ?"
+    },
+    {
+      "start": 229.99,
+      "end": 242.3,
+      "start_formatted": "00:03:49.990",
+      "end_formatted": "00:04:02.300",
+      "speaker": 1,
+      "text": "En g\u00e9n\u00e9ral, je prends un bon petit d\u00e9jeuner. Je mange des tartines avec du beurre et de la confiture. Parfois, je prends des c\u00e9r\u00e9ales. \u00c7a d\u00e9pend. Et je bois un grand caf\u00e9 ou bien un jus d'orange frais."
+    },
+    {
+      "start": 242.3,
+      "end": 250.69,
+      "start_formatted": "00:04:02.300",
+      "end_formatted": "00:04:10.690",
+      "speaker": 0,
+      "text": "Tu as de la chance d'avoir le temps le matin. Moi, je pr\u00e9f\u00e8re dormir un peu plus longtemps. Du coup, je ne prends pas le temps de petit d\u00e9jeuner."
+    },
+    {
+      "start": 250.69,
+      "end": 253.74,
+      "start_formatted": "00:04:10.690",
+      "end_formatted": "00:04:13.740",
+      "speaker": 1,
+      "text": "Je vois. Chacun ses habitudes le matin."
+    },
+    {
+      "start": 253.74,
+      "end": 258.62,
+      "start_formatted": "00:04:13.740",
+      "end_formatted": "00:04:18.620",
+      "speaker": 0,
+      "text": "Et apr\u00e8s le petit d\u00e9jeuner, tu pars directement travailler \u00e0 ton restaurant ?"
+    },
+    {
+      "start": 258.62,
+      "end": 268.45,
+      "start_formatted": "00:04:18.620",
+      "end_formatted": "00:04:28.450",
+      "speaker": 1,
+      "text": "Non Pas tout de suite. Mon restaurant n'ouvre qu'\u00e0 midi, alors le matin j'ai un peu de temps. En g\u00e9n\u00e9ral, j'arrive au restaurant vers 10 heures pour pr\u00e9parer le service du d\u00e9jeuner."
+    },
+    {
+      "start": 268.45,
+      "end": 273.74,
+      "start_formatted": "00:04:28.450",
+      "end_formatted": "00:04:33.740",
+      "speaker": 0,
+      "text": "Ah oui, ton restaurant ouvre assez tard. Du coup, tu as toute la matin\u00e9e pour toi."
+    },
+    {
+      "start": 273.74,
+      "end": 291.51,
+      "start_formatted": "00:04:33.740",
+      "end_formatted": "00:04:51.510",
+      "speaker": 1,
+      "text": "Oui, j'en profite pour me reposer un peu ou faire des petites choses calmement. Souvent, je lis les actualit\u00e9s du jour sur mon t\u00e9l\u00e9phone et je prends un deuxi\u00e8me caf\u00e9 tranquillement. Mais deux fois par semaine, je me l\u00e8ve beaucoup plus t\u00f4t vers 6 heures. Ces jours-l\u00e0, je vais au march\u00e9 t\u00f4t le matin pour acheter des produits frais pour le restaurant."
+    },
+    {
+      "start": 291.51,
+      "end": 295.31,
+      "start_formatted": "00:04:51.510",
+      "end_formatted": "00:04:55.310",
+      "speaker": 0,
+      "text": "D'accord. Donc, tu n'as pas la m\u00eame routine tous les matins."
+    },
+    {
+      "start": 295.31,
+      "end": 303.22,
+      "start_formatted": "00:04:55.310",
+      "end_formatted": "00:05:03.220",
+      "speaker": 1,
+      "text": "C'est vrai, ce n'est pas plus mal. J'aime bien changer un peu. Et est-ce que tu peux faire la grasse matin\u00e9e de temps en temps ? Par exemple le weekend ?"
+    },
+    {
+      "start": 303.22,
+      "end": 324.92,
+      "start_formatted": "00:05:03.220",
+      "end_formatted": "00:05:24.920",
+      "speaker": 0,
+      "text": "Ah, le weekend. Oui, heureusement, je ne travaille pas le dimanche. Le dimanche, j'essaie de ne pas mettre de r\u00e9veil et de dormir jusqu'\u00e0 9 heures ou 10 heures. J'en profite pour prendre un bon petit d\u00e9jeuner sans me presser. Je reste en pyjama et je savoure mon caf\u00e9 tranquillement. Et le lundi matin, c'est toujours un peu difficile de se r\u00e9veiller de nouveau \u00e0 5h30."
+    },
+    {
+      "start": 324.92,
+      "end": 334.11,
+      "start_formatted": "00:05:24.920",
+      "end_formatted": "00:05:34.110",
+      "speaker": 1,
+      "text": "Je te comprends. Le dimanche, j'en profite aussi pour dormir un peu plus tard. Bon, il est presque huit heures. Je dois y aller, j'ai un rendez-vous \u00e0 huit heures trente."
+    },
+    {
+      "start": 334.11,
+      "end": 337.45,
+      "start_formatted": "00:05:34.110",
+      "end_formatted": "00:05:37.450",
+      "speaker": 0,
+      "text": "Pas de souci. Bonne chance pour ton rendez-vous."
+    },
+    {
+      "start": 337.45,
+      "end": 340.79,
+      "start_formatted": "00:05:37.450",
+      "end_formatted": "00:05:40.790",
+      "speaker": 1,
+      "text": "Merci. Et bon courage pour ta matin\u00e9e au caf\u00e9."
+    },
+    {
+      "start": 340.79,
+      "end": 343.86,
+      "start_formatted": "00:05:40.790",
+      "end_formatted": "00:05:43.860",
+      "speaker": 0,
+      "text": "Merci. Bonne journ\u00e9e, \u00e0 plus tard."
+    },
+    {
+      "start": 343.86,
+      "end": 345.44,
+      "start_formatted": "00:05:43.860",
+      "end_formatted": "00:05:45.440",
+      "speaker": 1,
+      "text": "\u00c0 bient\u00f4t Daphn\u00e9."
+    },
+    {
+      "start": 345.44,
+      "end": 351.94,
+      "start_formatted": "00:05:45.440",
+      "end_formatted": "00:05:51.940",
+      "speaker": 0,
+      "text": "[Music]"
+    }
+  ]
+}
