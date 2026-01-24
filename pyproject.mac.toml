@@ -1,0 +1,26 @@
+[project]
+name = "translate-dub"
+version = "0.1.0"
+description = "Audio dubbing with voice cloning"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "torch",
+    "torchaudio",
+    # Qwen3-TTS dependencies
+    "transformers==4.57.3",
+    "accelerate==1.12.0",
+    "gradio",
+    "librosa",
+    "soundfile",
+    "sox",
+    "onnxruntime",
+    "einops",
+    # Local Qwen3-TTS package
+    "qwen-tts",
+    # ASR - faster-whisper with CTranslate2
+    "faster-whisper",
+]
+
+[tool.uv.sources]
+qwen-tts = { path = "Qwen3-TTS", editable = true }
