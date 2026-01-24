@@ -1,0 +1,27 @@
+[project]
+name = "translate-dub"
+version = "0.1.0"
+description = "Audio dubbing with voice cloning"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "torchaudio",
+    # Qwen3-TTS dependencies
+    "transformers>=4.51.0",
+    "accelerate>=1.0.0",
+    "librosa",
+    "soundfile",
+    "einops",
+    # Local Qwen3-TTS package
+    "qwen-tts",
+    # ASR - faster-whisper with CTranslate2
+    "faster-whisper",
+]
+
+[tool.uv.sources]
+qwen-tts = { path = "Qwen3-TTS", editable = true }
+
+[tool.uv]
+# Use PyTorch CUDA index
+extra-index-url = ["https://download.pytorch.org/whl/cu121"]

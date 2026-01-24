@@ -19,3 +19,6 @@ reference_papers/
 
 # Backup files
 *.bak
+
+# Models
+models/
