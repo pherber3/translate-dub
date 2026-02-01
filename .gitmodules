@@ -1,3 +1,6 @@
 [submodule "Qwen3-TTS"]
 	path = Qwen3-TTS
 	url = https://github.com/QwenLM/Qwen3-TTS.git
+[submodule "VibeVoice"]
+	path = VibeVoice
+	url = https://github.com/microsoft/VibeVoice.git
