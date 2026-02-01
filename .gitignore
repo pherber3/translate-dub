@@ -14,8 +14,7 @@ data/audio_dubbed/
 .cache/
 
 # References (submodules)
-Qwen3-TTS/
-reference_papers/
+
 
 # Backup files
 *.bak

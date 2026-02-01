@@ -10,51 +10,104 @@ This workflow describes how to run translate-dub on cloud NVIDIA GPUs (GCP, Vast
 
 - SSH key configured for cloud access
 - (Optional) VS Code with Remote-SSH extension
+- gcloud CLI installed and authenticated (`gcloud auth login`)
 
 ---
 
-## Option 1: Google Cloud Platform (GCP)
+## Option 1: Google Cloud Platform (GCP) - Recommended
 
-### 1. Create a GPU VM
+Uses GCP's Deep Learning VM image with NVIDIA drivers, CUDA, and Docker pre-installed.
 
-```bash
-# Create L4 GPU instance (24GB VRAM, good for most models)
-gcloud compute instances create translate-dub-dev \
-    --zone=us-central1-a \
-    --machine-type=g2-standard-4 \
-    --accelerator=type=nvidia-l4,count=1 \
-    --image-family=ubuntu-2204-lts \
-    --image-project=ubuntu-os-cloud \
-    --boot-disk-size=100GB \
-    --maintenance-policy=TERMINATE
+### 1. Create a GPU VM (PowerShell)
+
+```powershell
+# T4 GPU - cheapest option (~$0.15/hr spot)
+gcloud compute instances create translate-dub-dev `
+    --zone=us-central1-a `
+    --machine-type=n1-standard-4 `
+    "--accelerator=type=nvidia-tesla-t4,count=1" `
+    --image-family=pytorch-latest-gpu `
+    --image-project=deeplearning-platform-release `
+    --boot-disk-size=200GB `
+    --maintenance-policy=TERMINATE `
+    --provisioning-model=SPOT
 ```
 
-### 2. SSH into the VM
+Or for more VRAM (L4 - 24GB):
+
+```powershell
+gcloud compute instances create translate-dub-dev `
+    --zone=us-central1-a `
+    --machine-type=g2-standard-4 `
+    "--accelerator=type=nvidia-l4,count=1" `
+    --image-family=pytorch-latest-gpu `
+    --image-project=deeplearning-platform-release `
+    --boot-disk-size=200GB `
+    --maintenance-policy=TERMINATE `
+    --provisioning-model=SPOT
+```
+
+### 2. Set up SSH access
+
+First time only - generate a key and add SSH config:
 
 ```bash
+# Generate SSH key (if you don't have one)
+ssh-keygen -t ed25519 -f ~/.ssh/gcp_vm -N ""
+
+# Get the VM's external IP
+gcloud compute instances describe translate-dub-dev --zone=us-central1-a --format="get(networkInterfaces[0].accessConfigs[0].natIP)"
+
+# Add to SSH config (~/.ssh/config)
+cat >> ~/.ssh/config << 'EOF'
+Host gcp-translate-dub
+    HostName <PASTE_IP_HERE>
+    User <YOUR_USERNAME>
+    IdentityFile ~/.ssh/gcp_vm
+EOF
+```
+
+Add your public key to the VM (run once via gcloud):
+
+```bash
+# This adds your key and opens a session
 gcloud compute ssh translate-dub-dev --zone=us-central1-a
+# Then exit and use regular SSH
 ```
 
-### 3. Run setup script
+### 3. Connect via VS Code Remote-SSH
+
+1. `Ctrl+Shift+P` → "Remote-SSH: Connect to Host..."
+2. Select `gcp-translate-dub`
+3. Open folder: `/home/<username>/translate-dub`
+
+### 4. Clone repo and run (on the VM)
 
 ```bash
-# Clone repo and run setup
-git clone --recursive https://github.com/YOUR_USERNAME/translate-dub.git
+# Clone your repo
+git clone --recursive https://github.com/pherber3/translate-dub.git
 cd translate-dub
-./scripts/cloud-setup.sh
-```
 
-### 4. Start development container
+# Verify GPU is working
+nvidia-smi
 
-```bash
-./scripts/docker-run.sh
+# Run the pipeline directly (no Docker needed - Deep Learning VM has everything)
+pip install uv
+uv sync
+uv run python main.py --single-file data/audio_samples_orig/de_en_source.wav
 ```
 
 ### 5. Stop VM when done (to save costs!)
 
-```bash
-# From local machine
+```powershell
+# Stop to pause billing (keeps disk)
 gcloud compute instances stop translate-dub-dev --zone=us-central1-a
+
+# Start again later
+gcloud compute instances start translate-dub-dev --zone=us-central1-a
+
+# Delete completely when done
+gcloud compute instances delete translate-dub-dev --zone=us-central1-a
 ```
 
 ---
