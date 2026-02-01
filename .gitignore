@@ -11,6 +11,7 @@ wheels/
 
 # Output and cache
 data/audio_dubbed/
+data/longform_audio/
 .cache/
 
 # References (submodules)

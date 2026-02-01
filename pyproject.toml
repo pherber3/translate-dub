@@ -14,7 +14,7 @@ dependencies = [
     "librosa",
     "soundfile",
     "sox",
-    "onnxruntime",
+    "onnxruntime-gpu",
     "einops",
     # Local Qwen3-TTS package
     "qwen-tts",
@@ -24,6 +24,9 @@ dependencies = [
     "audio-separator>=0.26",
     "demucs-infer>=0.2",
     "mistral-common>=1.8.8",
+    "torchcodec>=0.10.0",
+    "vllm>=0.8.0",
+    "requests>=2.31.0",
 ]
 
 [tool.uv.sources]

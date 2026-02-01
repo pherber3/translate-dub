@@ -120,14 +120,15 @@ class AudioSeparator:
         print(f"  [Separation] Running {self.model} (CPU/ONNX)...")
         output_files = separator.separate(str(audio_path))
 
-        # audio-separator names outputs like "input_(Vocals).wav" and "input_(Instrumental).wav"
+        # audio-separator names outputs like "input_(Vocals)_model.wav" and "input_(Instrumental)_model.wav"
         vocals_path = None
         accompaniment_path = None
         for f in output_files:
+            # Returned paths should already be absolute to output_dir
             f = Path(f)
-            if "(Vocals)" in f.name:
+            if "(Vocals)" in f.name or "vocals" in f.name.lower():
                 vocals_path = f
-            elif "(Instrumental)" in f.name:
+            elif "(Instrumental)" in f.name or "instrumental" in f.name.lower():
                 accompaniment_path = f
 
         if vocals_path is None or accompaniment_path is None:

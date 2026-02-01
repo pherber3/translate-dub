@@ -131,9 +131,15 @@ Traditional clustering-based approaches (Pyannote) have known issues with error 
 - **Pyannote 3.1**: Fallback option, use with `segmentation-3.0` powerset encoding for overlap detection
 
 ### ASR (transcription)
-- **faster-whisper** (CTranslate2): Primary ASR engine, up to 4x faster than openai/whisper
+- **VibeVoice** (vLLM): GPU-optimized ASR for long-form audio (60+ min)
+  - Microsoft's VibeVoice-ASR model via vLLM server
+  - OpenAI-compatible API with continuous batching
+  - Requires Docker + vLLM server setup
+  - Reference: https://github.com/microsoft/VibeVoice
+  - See `docs/vibevoice_asr.md` for setup
+- **faster-whisper** (CTranslate2): CPU-optimized ASR fallback
   - Uses `large-v3-turbo` by default (pruned decoder, much faster with minimal quality loss)
-  - Runs on CPU with INT8 quantization (ROCm has HIP kernel issues with Whisper on RDNA3)
+  - Runs on CPU with INT8 quantization
   - Reference: https://github.com/SYSTRAN/faster-whisper
 - WhisperX: Alternative if word-level timestamps or diarization needed
 - Could be combined with diarization via NeMo Sortformer
@@ -171,8 +177,71 @@ for segment in segments:
 segments, info = model.transcribe("audio.wav", vad_filter=True)
 ```
 
+### VibeVoice ASR API Patterns
+```python
+from pipeline.asr import create_asr
+
+# Create VibeVoice instance (requires vLLM server running)
+asr = create_asr("vibevoice", base_url="http://localhost:8000/v1")
+
+# Transcribe audio
+result = asr.transcribe("audio.wav")
+print(result["text"])
+
+# Or use faster-whisper (CPU fallback)
+asr = create_asr("whisper", model_name="large-v3-turbo")
+result = asr.transcribe("audio.wav", language="de")
+```
+
+**Start VibeVoice vLLM server**:
+```bash
+./scripts/start_vibevoice_server.sh
+# Server runs on http://localhost:8000
+```
+
+### TranslateGemma API Patterns
+```python
+from pipeline.translation import create_translator
+
+# Create vLLM translator instance (requires vLLM server running)
+translator = create_translator("translategemma-vllm", base_url="http://localhost:8001/v1")
+
+# Translate text
+result = translator.translate(
+    text="The weather is beautiful today.",
+    source_lang="en",
+    target_lang="de"
+)
+print(result["translated_text"])
+
+# Custom prompt mode
+result = translator.translate_custom_prompt(
+    "Translate the following Japanese text to English: 今日はいい天気ですね。"
+)
+
+# Or use local transformers backend (no server needed)
+translator = create_translator("transformers", model_name="google/translategemma-12b-it")
+result = translator.translate("Hello world", source_lang="en", target_lang="de")
+```
+
+**Start TranslateGemma vLLM server**:
+```bash
+./scripts/start_translategemma_server.sh
+# Server runs on http://localhost:8001
+```
+
 ### Translation
-- **TranslateGemma** (`google/translategemma-12b-it` or smaller sizes): Text-to-text translation
+- **TranslateGemma (vLLM)**: GPU-optimized translation via vLLM server
+  - Uses `chbae624/vllm-translategemma-12b-it` (vLLM-compatible version)
+  - OpenAI-compatible API with continuous batching
+  - Supports 55 languages
+  - Requires Docker + vLLM server setup
+  - Reference: https://huggingface.co/chbae624/vllm-translategemma-12b-it
+  - See `docs/translategemma_translation.md` for setup
+- **TranslateGemma (Transformers)**: Local model loading fallback
+  - Uses `google/translategemma-12b-it` directly via HuggingFace Transformers
+  - Simpler setup but no batching optimization
+  - Requires ~24GB VRAM (or 4B model for ~8GB)
 - Requires ASR step first since it's not speech-to-text
 
 ### TTS (voice synthesis)
