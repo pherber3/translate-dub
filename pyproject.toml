@@ -26,6 +26,7 @@ dependencies = [
     "mlx-vlm", # Vision/Audio models (potential Qwen3-TTS port)
     "mlx-whisper>=0.4.3",
     "mlx-audio>=0.2.10",
+    "mistral-common>=1.8.8",
 ]
 
 [tool.uv.sources]
