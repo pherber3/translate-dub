@@ -10,18 +10,23 @@ dependencies = [
     # Qwen3-TTS dependencies
     "transformers>=4.51.0",
     "accelerate>=1.0.0",
+    "gradio",
     "librosa",
     "soundfile",
+    "sox",
     "einops",
     # Local Qwen3-TTS package
     "qwen-tts",
     # ASR - faster-whisper with CTranslate2
     "faster-whisper",
+    # Audio source separation
+    "audio-separator>=0.26",
+    "demucs-infer>=0.2",
 ]
 
 [tool.uv.sources]
 qwen-tts = { path = "Qwen3-TTS", editable = true }
 
 [tool.uv]
-# Use PyTorch CUDA index
+# Use PyTorch CUDA 12.1 index for NVIDIA GPUs
 extra-index-url = ["https://download.pytorch.org/whl/cu121"]

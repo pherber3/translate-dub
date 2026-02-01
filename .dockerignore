@@ -1,0 +1,58 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.egg-info
+.eggs
+*.egg
+.venv
+venv
+.uv
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Data files (large, should be mounted instead)
+data/
+*.wav
+*.mp3
+*.mp4
+*.flac
+
+# Build artifacts
+*.so
+*.dylib
+build/
+dist/
+
+# Notebooks
+notebooks/
+*.ipynb
+.ipynb_checkpoints
+
+# Logs and cache
+*.log
+.cache
+*.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Platform-specific configs (we use pyproject.cuda.toml)
+pyproject.mac.toml
+pyproject.toml
+uv.lock
+
+# Reference materials
+reference_papers/
+
+# MLX (not needed for CUDA)
+mlx-audio/

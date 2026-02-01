@@ -20,15 +20,11 @@ dependencies = [
     "qwen-tts",
     # ASR - faster-whisper with CTranslate2
     "faster-whisper",
-    # MLX for Apple Silicon native inference
-    "mlx",
-    "mlx-lm", # Text generation (TranslateGemma 12B, Whisper turbo)
-    "mlx-vlm", # Vision/Audio models (potential Qwen3-TTS port)
-    "mlx-whisper>=0.4.3",
-    "mlx-audio>=0.2.10",
+    # Audio source separation
+    "audio-separator>=0.26",
+    "demucs-infer>=0.2",
     "mistral-common>=1.8.8",
 ]
 
 [tool.uv.sources]
 qwen-tts = { path = "Qwen3-TTS", editable = true }
-mlx-audio = { path = "mlx-audio", editable = true }

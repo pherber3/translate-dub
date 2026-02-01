@@ -1,13 +1,12 @@
 """Main dubbing pipeline orchestrating ASR -> Translation -> TTS."""
 
-import gc
 import json
 import time
-import torch
 import soundfile as sf
 from pathlib import Path
 from dataclasses import dataclass, field
 
+from .device import clear_gpu_memory
 from .language_utils import iso_to_full, parse_filename
 
 
@@ -38,14 +37,6 @@ def save_cache(output_dir: Path, source_name: str, step: str, data: dict) -> Non
     cache_path = get_cache_path(output_dir, source_name, step)
     with open(cache_path, "w") as f:
         json.dump(data, f, indent=2)
-
-
-def clear_gpu_memory():
-    """Free GPU memory between model loads."""
-    gc.collect()
-    if torch.cuda.is_available():
-        torch.cuda.empty_cache()
-        torch.cuda.synchronize()
 
 
 @dataclass

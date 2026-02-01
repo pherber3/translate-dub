@@ -1,4 +1,6 @@
-"""Cross-platform device detection for PyTorch."""
+"""Cross-platform device detection and GPU memory management for PyTorch."""
+
+import gc
 
 import torch
 
@@ -46,3 +48,11 @@ def get_device_info() -> dict:
         info["cuda_memory_gb"] = torch.cuda.get_device_properties(0).total_memory / 1e9
 
     return info
+
+
+def clear_gpu_memory():
+    """Free GPU memory between model loads."""
+    gc.collect()
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+        torch.cuda.synchronize()
